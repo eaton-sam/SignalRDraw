@@ -1,0 +1,29 @@
+﻿*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1c1c1c;
+    color: #f6f6f6;
+}
+
+.mouse-area {
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    background: #323232;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.mouse-pointer {
+    position: absolute;
+    height: 22px;
+    width: auto;
+}
