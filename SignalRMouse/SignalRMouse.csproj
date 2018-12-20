@@ -6,11 +6,156 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\main.02c185b9f381f2b8a224.css" />
+    <Content Remove="wwwroot\css\main.043ebaba3181c6f00dba.css" />
+    <Content Remove="wwwroot\css\main.063a9a3f038496c1a48a.css" />
+    <Content Remove="wwwroot\css\main.0c669d13091294e7c620.css" />
+    <Content Remove="wwwroot\css\main.0c7d2138a454fb68ac5c.css" />
+    <Content Remove="wwwroot\css\main.1d2f17ac1f4972e3a86e.css" />
+    <Content Remove="wwwroot\css\main.1e21a97f3e768b2451bf.css" />
+    <Content Remove="wwwroot\css\main.1f3112f7706a5ac96500.css" />
+    <Content Remove="wwwroot\css\main.27c45d4b9801f7445497.css" />
+    <Content Remove="wwwroot\css\main.3d6eed3ac725513e9efb.css" />
+    <Content Remove="wwwroot\css\main.40f8b7c3054dd7ca0d4a.css" />
+    <Content Remove="wwwroot\css\main.46f0c6ad725f7f56050a.css" />
+    <Content Remove="wwwroot\css\main.497db9c75948e04eb588.css" />
+    <Content Remove="wwwroot\css\main.4c4c31af48d00025c07f.css" />
+    <Content Remove="wwwroot\css\main.4e3533d9a5e7525a693d.css" />
+    <Content Remove="wwwroot\css\main.587a5d6ecdfdbba31e5d.css" />
+    <Content Remove="wwwroot\css\main.5b53927d3c8ed52558a7.css" />
+    <Content Remove="wwwroot\css\main.5cde6de887613d70e8fd.css" />
+    <Content Remove="wwwroot\css\main.6487146dc15a255f6d2d.css" />
+    <Content Remove="wwwroot\css\main.69e2f826a4fec571b8e8.css" />
+    <Content Remove="wwwroot\css\main.762028515ad5eda409a2.css" />
+    <Content Remove="wwwroot\css\main.7689dadbe9d916faa550.css" />
+    <Content Remove="wwwroot\css\main.79410d1b0b17354dcd7b.css" />
+    <Content Remove="wwwroot\css\main.7e744a4b27ee3c737d48.css" />
+    <Content Remove="wwwroot\css\main.8151c76c85440f7651ce.css" />
+    <Content Remove="wwwroot\css\main.839b3dfe4c4b4e1076bd.css" />
+    <Content Remove="wwwroot\css\main.8558482a694f5cc18bac.css" />
+    <Content Remove="wwwroot\css\main.8854f58192abbd5bedd9.css" />
+    <Content Remove="wwwroot\css\main.89b26037f498f82c68dc.css" />
+    <Content Remove="wwwroot\css\main.8c1b1e48ca27003d64c9.css" />
+    <Content Remove="wwwroot\css\main.8c2b3df4ec42bc4e68a1.css" />
+    <Content Remove="wwwroot\css\main.8f59907f2c47db325f8d.css" />
+    <Content Remove="wwwroot\css\main.8ff25381cb4b3166c03d.css" />
+    <Content Remove="wwwroot\css\main.910499bbdebb23195e09.css" />
+    <Content Remove="wwwroot\css\main.97f1b9040b6d3313205f.css" />
+    <Content Remove="wwwroot\css\main.992fc9abe2470fc759ab.css" />
+    <Content Remove="wwwroot\css\main.9ee7e1e8db1fab004ac8.css" />
+    <Content Remove="wwwroot\css\main.a197de91414273a2fc5c.css" />
+    <Content Remove="wwwroot\css\main.a1fe61685a7f0cfe5931.css" />
+    <Content Remove="wwwroot\css\main.a6a4365c70a33c5f7408.css" />
+    <Content Remove="wwwroot\css\main.a922db6e0ece8eb7ec55.css" />
+    <Content Remove="wwwroot\css\main.b1e02d0043d2e86f75f1.css" />
+    <Content Remove="wwwroot\css\main.b76a73a2083a5bf675bb.css" />
+    <Content Remove="wwwroot\css\main.c18cce29383782eb0814.css" />
+    <Content Remove="wwwroot\css\main.c29bc52742de9d6239d8.css" />
+    <Content Remove="wwwroot\css\main.c8329c8719ce4743ee94.css" />
+    <Content Remove="wwwroot\css\main.cb089699215585872053.css" />
+    <Content Remove="wwwroot\css\main.cb81f3ac5f3c2974b695.css" />
+    <Content Remove="wwwroot\css\main.cbe927343c7175209a8d.css" />
+    <Content Remove="wwwroot\css\main.d80a9b58277be97b4aae.css" />
+    <Content Remove="wwwroot\css\main.d9a3f38d0ca50dff6775.css" />
+    <Content Remove="wwwroot\css\main.d9c71ab0adc51d0446e9.css" />
+    <Content Remove="wwwroot\css\main.daba6b32e7368a33c9e4.css" />
+    <Content Remove="wwwroot\css\main.dbe855c9d44b8014d54d.css" />
+    <Content Remove="wwwroot\css\main.dec00388f6e515865392.css" />
+    <Content Remove="wwwroot\css\main.e166eb70f16611df434a.css" />
+    <Content Remove="wwwroot\css\main.e2e374447293897f9eb6.css" />
+    <Content Remove="wwwroot\css\main.e31ef86d228c31cf31da.css" />
+    <Content Remove="wwwroot\css\main.e32e5476c5bb4135971b.css" />
+    <Content Remove="wwwroot\css\main.ee9f5d7566f74c47607b.css" />
+    <Content Remove="wwwroot\css\main.f26e47da9570c78e76f7.css" />
+    <Content Remove="wwwroot\css\main.f7a7acdb4ec43b31967d.css" />
+    <Content Remove="wwwroot\css\main.f949a6ee048a7667508f.css" />
+    <Content Remove="wwwroot\css\main.fca0abcb2b4ed541e866.css" />
+    <Content Remove="wwwroot\css\main.fe6f2a0a874976a9ea65.css" />
+    <Content Remove="wwwroot\css\main.fe8a29cf8367bd509ae7.css" />
+    <Content Remove="wwwroot\css\main.ff7f98ad0a6eaba29310.css" />
+    <Content Remove="wwwroot\main.02c185b9f381f2b8a224.js" />
+    <Content Remove="wwwroot\main.043ebaba3181c6f00dba.js" />
+    <Content Remove="wwwroot\main.063a9a3f038496c1a48a.js" />
+    <Content Remove="wwwroot\main.0c669d13091294e7c620.js" />
+    <Content Remove="wwwroot\main.0c7d2138a454fb68ac5c.js" />
+    <Content Remove="wwwroot\main.1d2f17ac1f4972e3a86e.js" />
+    <Content Remove="wwwroot\main.1e21a97f3e768b2451bf.js" />
+    <Content Remove="wwwroot\main.1f3112f7706a5ac96500.js" />
+    <Content Remove="wwwroot\main.27c45d4b9801f7445497.js" />
+    <Content Remove="wwwroot\main.2eb8b3bb817df5213a6b.js" />
+    <Content Remove="wwwroot\main.3d6eed3ac725513e9efb.js" />
+    <Content Remove="wwwroot\main.40f8b7c3054dd7ca0d4a.js" />
+    <Content Remove="wwwroot\main.46f0c6ad725f7f56050a.js" />
+    <Content Remove="wwwroot\main.497db9c75948e04eb588.js" />
+    <Content Remove="wwwroot\main.4c4c31af48d00025c07f.js" />
+    <Content Remove="wwwroot\main.4e3533d9a5e7525a693d.js" />
+    <Content Remove="wwwroot\main.587a5d6ecdfdbba31e5d.js" />
+    <Content Remove="wwwroot\main.5b53927d3c8ed52558a7.js" />
+    <Content Remove="wwwroot\main.5cde6de887613d70e8fd.js" />
+    <Content Remove="wwwroot\main.6476cd574b658e5162bc.js" />
+    <Content Remove="wwwroot\main.6487146dc15a255f6d2d.js" />
+    <Content Remove="wwwroot\main.69e2f826a4fec571b8e8.js" />
+    <Content Remove="wwwroot\main.762028515ad5eda409a2.js" />
+    <Content Remove="wwwroot\main.7689dadbe9d916faa550.js" />
+    <Content Remove="wwwroot\main.79410d1b0b17354dcd7b.js" />
+    <Content Remove="wwwroot\main.7e744a4b27ee3c737d48.js" />
+    <Content Remove="wwwroot\main.8151c76c85440f7651ce.js" />
+    <Content Remove="wwwroot\main.839b3dfe4c4b4e1076bd.js" />
+    <Content Remove="wwwroot\main.8558482a694f5cc18bac.js" />
+    <Content Remove="wwwroot\main.882c1c0b7c23b00e5443.js" />
+    <Content Remove="wwwroot\main.8854f58192abbd5bedd9.js" />
+    <Content Remove="wwwroot\main.89b26037f498f82c68dc.js" />
+    <Content Remove="wwwroot\main.8c1b1e48ca27003d64c9.js" />
+    <Content Remove="wwwroot\main.8c2b3df4ec42bc4e68a1.js" />
+    <Content Remove="wwwroot\main.8f59907f2c47db325f8d.js" />
+    <Content Remove="wwwroot\main.8ff25381cb4b3166c03d.js" />
+    <Content Remove="wwwroot\main.910499bbdebb23195e09.js" />
+    <Content Remove="wwwroot\main.95a379556fad55077a74.js" />
+    <Content Remove="wwwroot\main.97f1b9040b6d3313205f.js" />
+    <Content Remove="wwwroot\main.992fc9abe2470fc759ab.js" />
+    <Content Remove="wwwroot\main.9ee7e1e8db1fab004ac8.js" />
+    <Content Remove="wwwroot\main.a197de91414273a2fc5c.js" />
+    <Content Remove="wwwroot\main.a1fe61685a7f0cfe5931.js" />
+    <Content Remove="wwwroot\main.a6a4365c70a33c5f7408.js" />
+    <Content Remove="wwwroot\main.a922db6e0ece8eb7ec55.js" />
+    <Content Remove="wwwroot\main.b1e02d0043d2e86f75f1.js" />
+    <Content Remove="wwwroot\main.b76a73a2083a5bf675bb.js" />
+    <Content Remove="wwwroot\main.b80cc4a1698828713c49.js" />
+    <Content Remove="wwwroot\main.c18cce29383782eb0814.js" />
+    <Content Remove="wwwroot\main.c29bc52742de9d6239d8.js" />
+    <Content Remove="wwwroot\main.c8329c8719ce4743ee94.js" />
+    <Content Remove="wwwroot\main.cb089699215585872053.js" />
+    <Content Remove="wwwroot\main.cb81f3ac5f3c2974b695.js" />
+    <Content Remove="wwwroot\main.cbe927343c7175209a8d.js" />
+    <Content Remove="wwwroot\main.d80a9b58277be97b4aae.js" />
+    <Content Remove="wwwroot\main.d9a3f38d0ca50dff6775.js" />
+    <Content Remove="wwwroot\main.d9c71ab0adc51d0446e9.js" />
+    <Content Remove="wwwroot\main.daba6b32e7368a33c9e4.js" />
+    <Content Remove="wwwroot\main.dbe855c9d44b8014d54d.js" />
+    <Content Remove="wwwroot\main.dec00388f6e515865392.js" />
+    <Content Remove="wwwroot\main.e166eb70f16611df434a.js" />
+    <Content Remove="wwwroot\main.e2e374447293897f9eb6.js" />
+    <Content Remove="wwwroot\main.e31ef86d228c31cf31da.js" />
+    <Content Remove="wwwroot\main.e32e5476c5bb4135971b.js" />
+    <Content Remove="wwwroot\main.ee9f5d7566f74c47607b.js" />
+    <Content Remove="wwwroot\main.f01744acea09c8e04e39.js" />
+    <Content Remove="wwwroot\main.f26e47da9570c78e76f7.js" />
+    <Content Remove="wwwroot\main.f7a7acdb4ec43b31967d.js" />
+    <Content Remove="wwwroot\main.f949a6ee048a7667508f.js" />
+    <Content Remove="wwwroot\main.fca0abcb2b4ed541e866.js" />
+    <Content Remove="wwwroot\main.fe6f2a0a874976a9ea65.js" />
+    <Content Remove="wwwroot\main.fe8a29cf8367bd509ae7.js" />
+    <Content Remove="wwwroot\main.ff7f98ad0a6eaba29310.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="src\index.ts" />
+    <None Remove="src\old.ts" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +165,7 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="src\index.ts" />
+    <TypeScriptCompile Include="src\old.ts" />
   </ItemGroup>
 
 </Project>

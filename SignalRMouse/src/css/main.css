@@ -5,11 +5,22 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
     background: #1c1c1c;
     color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#canvas {
+    width:  800px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
 }
 
 .mouse-area {
@@ -25,5 +36,40 @@ body {
 .mouse-pointer {
     position: absolute;
     height: 22px;
-    width: auto;
+}
+    .mouse-pointer > img {
+        height: 100%;
+        width: auto;
+    }
+    .mouse-pointer::after {
+        content: attr(data-name);
+    }
+
+.mouse-click {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.canvas-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #483019;
+    padding: 10px;
+}
+
+input[type=color] {
+    border: none;
+    background-color: Window;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+}
+
+.colours > div, .colours > input {
+
 }

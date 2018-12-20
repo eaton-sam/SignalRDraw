@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using SignalRMouse.Hubs;
 
 namespace SignalRMouse
 {
@@ -47,7 +48,8 @@ namespace SignalRMouse
 
             app.UseSignalR(configure =>
             {
-                configure.MapHub<MouseHub>("/mouse");
+                //configure.MapHub<MouseHub>("/mouse");
+                configure.MapHub<PathHub>("/path");
             });
         }
     }
